@@ -2,6 +2,16 @@
 Promises in JavaScript are objects representing the eventual completion or failure of an asynchronous operation. Essentially, they are a return value of an operation that hasn't necessarily completed yet.
 
 ## easy exercise: Create a simple promise that resolves to a string "Hello, World!" after 2 seconds.
+```js
+   //done solving without looking at solution
+   const myPromise = new Promise((resolve) => {
+    setTimeout(() => {
+    resolve(console.log("Hello, World!"));
+    }, 2);
+    });
+
+```
+
 
 ## Solution
 
